@@ -1,5 +1,6 @@
 :root {
-
+    --grey: rgb(58, 56, 56);
+    --offred:  indianred;
 }
 
 * {
@@ -8,14 +9,68 @@
 }
 
 body {
-    background-color: rgb(231, 230, 230);
+    background-color: rgb(250, 248, 248);
 }
 
 .hero {
-    height: 250px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("./Images/nightlights.webp");
     background-size: cover;
     background-position: center;
+}
+
+.header {
+    background-color: var(--grey); 
+    display: flex;
+
+    
+}
+h1 {
+    background-color: var(--offred);
+    justify-content: flex-end;
+    width: 400px;
+    color: var(--grey);
+    text-align: end;
+}
+/* Schedule time with tutor for help */
+.headerlinks {
+    text-align: end;
+    width: 100%;
+    font-weight: bold;
+    color: var(--offred);
+    font-size: 25px;
+}
+
+.headerlinks:visited , 
+.headerlinks:active {
+    color: var(--offred);
+}
+
+.work {
+    display: flex;
+    margin: 20px;
+
+
+}
+
+#first-holder {
+    width: 100%;
+    margin:0 , auto;
+}
+
+
+.contact {
+    margin: 50px;
+}
+
+#phone,
+#email,
+#github,
+#twitter,
+#linkedin {
+    font-size: 30px;
+    margin: 0 20px;
+   
 }
