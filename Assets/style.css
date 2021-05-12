@@ -27,6 +27,7 @@ body {
 
     
 }
+
 h1 {
     background-color: var(--offred);
     justify-content: flex-end;
@@ -45,6 +46,12 @@ h1 {
     line-height: 80px;
     margin-right: 15px;
 }
+
+#about-me-sec {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 #about-me ,
 #work,
 #contact,
@@ -52,13 +59,16 @@ h1 {
     color: var(--offred);
     margin: 5px;
 }
+h2 {
+    padding-right: 30px;
+}
 
 
 .work {
     display: flex;
     margin: 20px;
-
-
+    
+    
 }
 
 #first-holder {
@@ -68,7 +78,17 @@ h1 {
 }
 
 .contact {
-    margin: 50px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+div{
+    margin-left: 100px;
+
+}
+#contact-aside {
+    text-align: center;
+    border: none;
 }
 
 #phone,
@@ -76,7 +96,7 @@ h1 {
 #github,
 #twitter,
 #linkedin {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 20px;
     text-decoration: none;
    
@@ -87,4 +107,17 @@ footer {
     margin-top: 0;
     bottom: 0;
     
+}
+
+@media screen and (max-width: 992px) {
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
 }
