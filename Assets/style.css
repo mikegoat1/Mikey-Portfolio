@@ -41,6 +41,11 @@ section > p {
 .about-me{
     float: right;
 }
+
+.about-me > p {
+
+    border:2px solid var(--offred);
+}
 .header {
     background-color: var(--grey); 
     display: flex;
@@ -77,6 +82,7 @@ h1 {
 #resume {
     color: var(--offred);
     margin: 5px;
+    
 }
 
 h2 {
@@ -104,24 +110,25 @@ p {
 }
 
 
-
-#fifth-holder {
-    margin-top: 20px;
-    }
-
 .contact {
     margin: 50px 0;
     text-align: center;
     
 }
 
-div{
+div {
     margin-left: 100px;
-
+    line-height: 7;
 }
+#contact-sec {
+    border: 2px solid;
+    }
+
 #contact-aside {
     text-align: center;
-    border: none;
+    border: 2px solid var(--offred);
+    line-height: 4;
+    margin-left: 20px;
 }
 
 #phone,
@@ -132,13 +139,17 @@ div{
     font-size: 20px;
     margin: 0 20px;
     text-decoration: none;
+    color: var(--offred);
+
    
 }
 
+
 footer {
-    position: absolute;
+    
     margin-top: 0;
     bottom: 0;
+    text-align: center;
     
 }
 
