@@ -16,7 +16,6 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 30px 0;
     align-items: stretch;
     justify-content: space-between;
 }
@@ -28,7 +27,12 @@ section > h2{
 section > p {
     flex: 0 0 75%;
 }
-
+ 
+#hero {
+    text-align: end;
+    width: 100%;
+    color: var(--offred);
+}
 
 .hero {
     height: 200px;
@@ -118,7 +122,9 @@ p {
 
 div {
     margin-left: 100px;
-    line-height: 7;
+    line-height: 6;
+    font-size: 23px;
+
 }
 #contact-sec {
     border: 2px solid;
@@ -140,7 +146,6 @@ div {
     margin: 0 20px;
     text-decoration: none;
     color: var(--offred);
-
    
 }
 
@@ -153,7 +158,57 @@ footer {
     
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width:922px) {
+    h1 {
+        background-color: var(--offred);
+        justify-content: unset;
+        width: 234px;
+        color: var(--grey);
+        text-align: end;
+        }
+
+    #about-me, #work, #contact, #resume {
+        color: var(--offred);
+        margin: 0;
+        }
+    
+
+    p   {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: unset;
+        margin: 0;
+        flex-direction: column;
+        align-items: unset;
+       
+        display: inline-block;
+        }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        justify-content: space-between;
+        }
+
+        #contact-aside {
+            text-align: -webkit-center;
+            border: 2px solid var(--offred);
+            line-height: 3;
+            margin-left: 20;
+            display: inline-table;
+            padding: 10px;
+            }
+
+        div {
+            margin-left: -51px;
+            line-height: 2;
+            font-size: 23px;
+            }
+
+
+
     
 
 }
